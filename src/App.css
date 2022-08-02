@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Smooch&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&display=swap');
+
+.App {
+  text-align: center;
+  font-family: "Bitter", serif;
+}
+body {
+  margin: 0;
+  background-color: #f4f9e1;
+  padding: 10%;
+  padding-top: 2%;
+}
+
+.booklist {
+  justify-content: space-between;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.searchform {
+  font-family: "Bitter", serif;
+  display: flex;
+  justify-content: center;
+  margin: 0 1rem;
+  padding: 10%;
+}
+
+.searchinput {
+  border-radius: 15px;
+  width: 150px;
+  padding: 0.5rem;
+  outline: none;
+  border: 1px solid gainsboro;
+}
+
+.searchbutton {
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  border: none;
+  outline: none;
+
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 0.5rem;
+}
+
+h1 {
+  font-family: 'Cormorant SC', serif;
+  font-size: 3rem;
+  color: #2c292b;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Source Code Pro", monospace;
+  padding: 5%;
+  font-size: 1.5rem;
+  color: #2c292b;
+  text-align: center;
+}
+
+h3 {
+  text-align: left;
+}
+
+h4 {
+  text-align: left;
+}
+h5 {
+  text-align: left;
+}
+
+.cardingredients {
+  background-color: rgb(238, 248, 234);
+  padding: 5%;
+  border-radius: 18px;
+}
+.backgroundimage {
+  width: 100%;
+  height: 400px;
+}
+
+.scrolldown {
+  width: 50px;
+  height: 50px;
+  top: 0.3in;
+  right: 0.3in;
+  position: absolute;
+}
